@@ -1,0 +1,42 @@
+#include <stdio.h>
+
+//This is my first c code......
+int main () {
+    printf("Hi this is focus \n");
+    printf("tHANK YOU\n\n");
+    printf("Back to back \n");
+
+
+
+//Declare a variable and assigned a integer values
+// print integer variable
+int myGar = 10;
+printf("%i\n", myGar );
+/*The code below will print the words Hello World!
+to the screen, and it is amazing*/
+// print float variable
+float myFloat = 20.00; 
+printf("%.2f\n", myFloat);
+
+//print char variable
+char myChar = 'f';
+printf("%c\n" , myChar);
+
+//print variable
+printf("My name is focus : %.2f\n", myFloat);
+printf("mutiu\n");
+
+//Add two variable
+int x = 4;
+int y = 5;
+int mySum = x + y ;
+printf("%d\n", mySum);
+
+//Declare multiple nariable
+int z = 5;
+int sum = x+y+z;
+printf("%i\n", sum);
+
+//goodbye
+return 0;
+}
