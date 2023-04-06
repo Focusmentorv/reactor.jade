@@ -3,7 +3,7 @@
 //This is my first c code......
 int main () {
     printf("Hi this is focus \n");
-    printf("tHANK YOU\n\n");
+    printf("tHANK YOnU\n\n");
     printf("Back to back \n");
 
 
