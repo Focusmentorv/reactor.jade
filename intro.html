@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRACTICE PAGE</title>
+    <script src="intro.js"></script>
+    <script src="next.js"></script>
+    <script>
+        function intro() {
+            document.getElementById('mana').style.fontSize='25px';
+        }
+    </script>
+</head>
+<body>
+    <p id="main"></p>
+   <h1> Hello Focus welcome to heaven </h1> 
+
+    <button type="button"
+      onclick="document.getElementById('main').innerHTML=Date()">
+      Tell me the time and date sir
+    </button>
+<!--Javascript to change the element of an html-->
+   <h2>About Me</h2>
+   <p id="developer" style="color: red
+   ;">My name is focus im a developer</p>
+     <button
+       onclick="document.getElementById('developer').innerHTML= 'Im 23 YEARS old'">
+       Tell me your Age
+     </button>
+     
+<div id="mana" style="margin-top: 15px;"> Let Goooo</div>
+<button type="button"
+        onclick="intro()">
+    Increase my size
+</button>
+
+<p id="remi">
+
+</p>
+<script>
+/*
+java script long codes
+*/
+  
+ document.write("<p>New content</p>");
+ document.write("<p>New content</p>");
+//  window.alert("Welcome to our page");
+//  alert("Enjoy your tour");
+</script>
+
+
+<!--Do not use document.write after a number called-->
+<button type="button"
+        onclick="document.write(5+3)">
+  Click on me
+</button>
+<p>
+      <button
+              onclick="window.print()">
+          Print the page
+     </button>
+  </p>
+  <p>
+    <h2>
+       We ne to write some <b style="color: blue;"> Javascript </b>
+       <p id="about"></p>
+    </h2>
+    <p id="namer"></p>
+    <p id="name"></p>
+    <script>
+      let x, y, z; //statement 
+      x = 4;   //statement two
+      y = 5;   //two
+      z = x + y;   //three
+      document.getElementById('namer').innerHTML = 
+      "The resulting output is "+ z + "";
+    </script>
+    <script>
+        document.getElementById('name').innerHTML = 
+      "let keep moving now"
+    </script>
+  </p>
+  <p>  
+     <p id="bank"></p>
+     <!-- <p id="about"></p> -->
+    <script>
+      var name = "My name is focus"
+      var work = "my work is data"
+      const balance = 4000;
+      const withdrawn = 1000;
+      let newBalance = balance - withdrawn; //arthimetic
+      document.getElementById('bank').innerHTML = 
+      "Your new balance is "+ newBalance + ""
+      document.getElementById('about').innerHTML = name + "<br>" + work
+
+    </script>
+  </p>
+
+</body>
+<footer  style="border-color: black;">
+   
+</footer>
+</html>
